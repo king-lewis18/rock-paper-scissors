@@ -6,6 +6,13 @@ function getComputerChoice() {
 }
 
 
+function getHumanChoice() {
+    let choice = prompt("Choose rock, paper or scissors");
+    if (choice === "rock" || choice === "paper" || choice === "scissors") {
+        return choice;
+    }
+}
+
 
 
 
